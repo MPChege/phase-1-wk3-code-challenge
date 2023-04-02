@@ -1,0 +1,43 @@
+body{
+    background-color: brown;
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#movie-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.movie-details-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.movie-details-item img {
+  width: 200px;
+  height: 300px;
+}
+
+.movie-details-item p {
+  margin: 10px 0;
+}
+
+
+.film-item {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
